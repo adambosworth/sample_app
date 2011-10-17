@@ -14,6 +14,14 @@ test:
   database: db/test.sqlite3
   pool: 5
   timeout: 5000
+  
+staging:
+ adapter: mysql2
+ encoding: utf8
+ host: staging.ct1vjcyxovqq.us-east-1.rds.amazonaws.com
+ username: zmRpeuT
+ password: qK6koZnTf6yJyc
+ database: FRONTEND
 
 production:
   adapter: sqlite3
