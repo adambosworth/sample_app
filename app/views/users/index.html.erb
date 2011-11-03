@@ -1,0 +1,5 @@
+hello Adam
+
+<% @users.each do |user| %>
+<%=@start_warn.html_safe %><%= user.name %><%= @end_warn.html_safe%>	<%= user.email %> <p></p>
+<% end %>
